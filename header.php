@@ -2,7 +2,8 @@
 <html>
   <head>
     <title><?php echo _e($title); ?></title>
-
+    <link rel="alternate" type="application/atom+xml" title="RSS"
+          href="https://phabricator.haskell.org/phame/blog/feed/1/" />
     <?php echo $skin->getCSSResources(); ?>
 
   </head>
