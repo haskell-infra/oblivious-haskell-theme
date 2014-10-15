@@ -14,6 +14,7 @@
         ?></a>
       </h1>
       <p><?php echo _e($blog->getDescription()); ?></p>
+      <br/>
       <p>Atom feed available <a href="https://phabricator.haskell.org/phame/blog/feed/1/">here</a>.</p>
     </div>
     <div class="oblivious-content">
